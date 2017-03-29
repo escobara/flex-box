@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello Flexbox</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1>Display: Old Way</h1>
+    <div class="container">
+        <div class="item-1">Item 1</div>
+        <div class="item-2">Item 2</div>
+        <div class="item-3">Item 3</div>
+        <div class="item-4">Item 4</div>
+        <div class="item-5">Item 5</div>
+        <div class="item-6">Item 6</div>
+        <div class="item-7">Item 7</div>
+    </div>
+    <select id="flexAlign">
+        <option value="flex-start">flex-start</option>
+        <option value="flex-end">flex-end</option>
+        <option value="center">center</option>
+        <option value="baseline">baseline</option>
+        <option value="stretch" selected>stretch</option>
+    </select>
+
+
+    <h1>Display: Flex</h1>
+    <div class="flex-container" id='flex-container'>
+        <div class="item-1">Item 1 <br> <img src="https://placeholdit.imgix.net/~text?txtsize=12&txt=130%C3%97130&w=130&h=130" alt=""></div>
+        <div class="item-2">Item 2 </div>
+        <div class="item-3">Item 3 <br> <img src="https://placeholdit.imgix.net/~text?txtsize=12&txt=110%C3%97110&w=110&h=110" alt=""></div>
+        <div class="item-4">Item 4</div>
+        <div class="item-5">Item 5</div>
+        <div class="item-6">Item 6</div>
+        <div class="item-7">Item 7</div>
+    </div>
+
+    <script>
+        var itemsAlignment = document.getElementById("flexAlign");
+        itemsAlignment.addEventListener("change", function (evt) {
+            document.getElementById("flex-container").style.alignItems = evt.target.value;
+        });
+    </script>
+</body>
+
+</html>

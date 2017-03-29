@@ -1,0 +1,231 @@
+/* line 12, Users/Rene/Sites/flex-box/styles/main.scss */
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #a4ec64;
+  color: white;
+}
+
+/* line 18, Users/Rene/Sites/flex-box/styles/main.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 23, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin-bottom: 2em;
+}
+
+/* line 34, Users/Rene/Sites/flex-box/styles/main.scss */
+.container {
+  width: 840px;
+}
+
+/* line 5, Users/Rene/Sites/flex-box/styles/main.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 50, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container .item-1 {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  background: #45B38E;
+}
+
+/* line 57, Users/Rene/Sites/flex-box/styles/main.scss */
+.change-order-1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+/* line 61, Users/Rene/Sites/flex-box/styles/main.scss */
+.container .item-1 {
+  float: left;
+  width: 120px;
+  background: #45B38E;
+}
+
+/* line 50, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container .item-2 {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  background: #2D1817;
+}
+
+/* line 57, Users/Rene/Sites/flex-box/styles/main.scss */
+.change-order-2 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+/* line 61, Users/Rene/Sites/flex-box/styles/main.scss */
+.container .item-2 {
+  float: left;
+  width: 120px;
+  background: #2D1817;
+}
+
+/* line 50, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container .item-3 {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  background: #F2D368;
+}
+
+/* line 57, Users/Rene/Sites/flex-box/styles/main.scss */
+.change-order-3 {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+/* line 61, Users/Rene/Sites/flex-box/styles/main.scss */
+.container .item-3 {
+  float: left;
+  width: 120px;
+  background: #F2D368;
+}
+
+/* line 50, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container .item-4 {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  background: #F0AB55;
+}
+
+/* line 57, Users/Rene/Sites/flex-box/styles/main.scss */
+.change-order-4 {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+/* line 61, Users/Rene/Sites/flex-box/styles/main.scss */
+.container .item-4 {
+  float: left;
+  width: 120px;
+  background: #F0AB55;
+}
+
+/* line 50, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container .item-5 {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  background: #ED7943;
+}
+
+/* line 57, Users/Rene/Sites/flex-box/styles/main.scss */
+.change-order-5 {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
+/* line 61, Users/Rene/Sites/flex-box/styles/main.scss */
+.container .item-5 {
+  float: left;
+  width: 120px;
+  background: #ED7943;
+}
+
+/* line 50, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container .item-6 {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  background: #EA4E38;
+}
+
+/* line 57, Users/Rene/Sites/flex-box/styles/main.scss */
+.change-order-6 {
+  -webkit-box-ordinal-group: 7;
+      -ms-flex-order: 6;
+          order: 6;
+}
+
+/* line 61, Users/Rene/Sites/flex-box/styles/main.scss */
+.container .item-6 {
+  float: left;
+  width: 120px;
+  background: #EA4E38;
+}
+
+/* line 50, Users/Rene/Sites/flex-box/styles/main.scss */
+.flex-container .item-7 {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  background: #E80D19;
+}
+
+/* line 57, Users/Rene/Sites/flex-box/styles/main.scss */
+.change-order-7 {
+  -webkit-box-ordinal-group: 8;
+      -ms-flex-order: 7;
+          order: 7;
+}
+
+/* line 61, Users/Rene/Sites/flex-box/styles/main.scss */
+.container .item-7 {
+  float: left;
+  width: 120px;
+  background: #E80D19;
+}
+
+/* line 71, Users/Rene/Sites/flex-box/styles/main.scss */
+.align-auto {
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+}
+
+/* line 71, Users/Rene/Sites/flex-box/styles/main.scss */
+.align-flex-start {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+/* line 71, Users/Rene/Sites/flex-box/styles/main.scss */
+.align-flex-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+/* line 71, Users/Rene/Sites/flex-box/styles/main.scss */
+.align-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+/* line 71, Users/Rene/Sites/flex-box/styles/main.scss */
+.align-baseline {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+/* line 71, Users/Rene/Sites/flex-box/styles/main.scss */
+.align-stretch {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
